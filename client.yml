@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8760
+spring:
+  application:
+    name: config
+  datasource:
+    name: nxDatasource
+    url: jdbc:mysql://192.168.2.5:3306/uuu
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
